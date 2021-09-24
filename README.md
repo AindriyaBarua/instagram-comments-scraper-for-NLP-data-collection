@@ -1,5 +1,6 @@
 # instagram-comments-scraper
 Scrap Instagram comments under a post with python and Selenium
+
 **What the project does:**
 This project:
 1. Reads a list of Instagram post links from an Excel file placed inside Input folder
