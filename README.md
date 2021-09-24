@@ -12,8 +12,8 @@ This project:
 2. Create an Excel file with the links you want to scrap and place it in the Input folder
 3. The constants.py file holds all the constants, edit the INPUT_FILENAME and OUTPUT_FILENAME with your filenames
 4. In your venv ternminal, run 
-  >pip install -r requirements.txt
+  >$ pip install -r requirements.txt
 6. Run
-  >python driver.py
+  >$ python driver.py
   
 
