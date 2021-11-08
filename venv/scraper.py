@@ -10,6 +10,7 @@ import time
 import sys
 from selenium.common.exceptions import NoSuchElementException
 import re
+from selenium.webdriver.common.keys import Keys
 
 import constants
 import output_writer
@@ -94,6 +95,16 @@ def get_comments(comment_container_contents):
         comments.pop(0)
 
     return comments
+def autoLogin(constants.LOGIN_ID, constants.PASSCODE):
+    global driver
+    driver.get(constants.INSTAGRAM_HOME)
+    id = driver.find_element_by_xpath(constants.LOGIN_ID_XPATH)
+    id.sendKeys(constants.LOGIN_ID)
+    passwrd = driver.find_element_by_xpath(constants.PASSCODE_XPATH)
+    passwrd.sendKeys(constants.PASSCODE)
+    login = driver.find_element_by_xpath(constants.LOGIN_BUTTON_XPATH)
+    login.click()
+    
 
 
         
