@@ -16,3 +16,5 @@ LINKS_COLUMN_NAME = "Links"
 OUTPUT_FILENAME = "Outputs/comments_demo.xlsx"
 INPUT_FILENAME = "Inputs/links_demo.xlsx"
 OUTPUT_COLUMN_NAME = 'comment'
+LOGIN_ID = "" #Enter your instagram ID or email to login with.
+PASSCODE = "" #Enter your password
